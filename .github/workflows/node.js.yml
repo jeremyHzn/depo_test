@@ -18,5 +18,5 @@ jobs:
         key: ${{ secrets.VPS_SSH_KEY }}
         script: |
           cd /var/depo_git
-          git --git-dir=/var/depo_git --work-tree=/www/wwwroot/10.0.2.15 pull origin main
+          git --git-dir=/var/depo_git --work-tree=/www/wwwroot/109.176.198.67 pull origin main
           /deploy.sh
